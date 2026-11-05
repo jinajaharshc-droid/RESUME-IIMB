@@ -1,0 +1,152 @@
+#head {
+    font-style: italic ;
+    font-size: 100 px;
+}
+.harsh {
+   border: 10px solid black;
+}
+.h1 { 
+   align-text: center;
+
+}
+.full-screen-img {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;   /* 100% of the viewport width */
+      height: 100vh;  /* 100% of the viewport height */
+      object-fit: cover; /* Crops the photo cleanly to fit without distortion */
+      z-index: -1;    /* Sends the image behind any text or buttons */
+  }
+
+  .resume-button {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      padding: 15px 30px;
+      color: black;
+      background: #ffffff;
+      border-radius: 10px;
+      font: bold 16px sans-serif;}
+
+    
+      .top h2 {
+       text-align: right;
+         color: white;
+        margin: 5%;
+        padding: 20px;
+        background-color: rgba(35, 36, 36, 0.731); 
+       color: #ffffff; /* Crisp, fully opaque text */
+       padding: 20px;
+       display:block; /* Ensures the heading spans the full width of its container */
+       display:flex
+}
+
+.harshphoto {
+    position: top-right;
+    margin: px;
+    right: 100px;  /* Adjust this value to move the image left or right */
+    width: 100px;   /* 100% of the viewport width */
+    height: 240px;  /* 100% of the viewport height */
+    object-fit: top-right ; /* Crops the photo cleanly to fit without distortion */
+    z-index: -1;    /* Sends the image behind any text or buttons */
+}
+
+body {
+            /* 1. Add your vertical background image */
+            background-image: url(https://media.idownloadblog.com/wp-content/uploads/2025/07/Sky-Full-of-Stars-by-moneyjnr.jpeg'); 
+            
+            /* 2. Make the background move naturally with the page scroll */
+            background-attachment: scroll; 
+            
+            /* 3. Center the image horizontally, start from the top vertically */
+            background-position: center top; 
+            
+            /* 4. Prevent the image from tiling/repeating */
+            background-repeat: no-repeat; 
+            
+            /* 5. Scale the image to cover the full width of the screen */
+            background-size: cover; 
+            
+            /* Clean up default margins */
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+        }
+
+        /* Content styling to ensure the page is tall enough to scroll */
+        .content-spacer {
+            height: 200vh; /* Pushes the page height to twice the screen size */
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            color: white;
+            text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        h1, h2 {
+            margin: 40px 0;
+        }
+
+        .harshphoto {
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 175px;
+            height: 240px;
+            margin: 80px;
+            object-fit: cover;
+            border: 5px solid white;
+        }
+        h1 {
+            text-align: left;
+            color: white;
+            text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+            font-weight: bold;
+            font-size: 67px;
+            padding: 72px;
+        }
+
+        h2 , h3{
+            text-align: left;
+            color: white;
+            text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+            font-weight: bold;
+            font-size: 40px;
+            margin: 60px;
+            text-decoration: underline solid #ffffff;
+        }
+
+        p , ul {
+            text-align: left;
+            color: white;
+            text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+            font-size: 20px;
+            margin: 60px
+        }
+        
+        h3 {
+            text-align: left;
+            color: white;
+            text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+            font-weight: bold;
+            font-size: 25px;
+            margin: 60px;
+            text-decoration: underline solid #ffffff;
+        }
+
+        #intro {
+            text-align: center;
+            color: white;
+            text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+            font-weight: bold;
+            font-size: 25px;
+            margin: 60px;
+            background-color: rgba(68, 70, 70, 0.796);
+            padding: 20px;
+            underline none;
+        }
